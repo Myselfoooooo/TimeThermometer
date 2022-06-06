@@ -16,6 +16,6 @@ basic.forever(function () {
     if (Temperature < 18) {
         basic.pause(1000)
         Temperature += 1
-        Consume = 1 * Temperature
+        Consume = 0.937 * Temperature
     }
 })
